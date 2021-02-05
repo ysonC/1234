@@ -9,7 +9,6 @@ int main()
 {
     int i, a, n;
     
-
     for (a = 101; a <= 200; a++)
     {
         for (i = 2; i <= a; i++ )
@@ -32,6 +31,6 @@ int main()
                 else if (a%i != 0)continue;
             } 
     }
-    
+
     cout << "Total prime # = " << n;
 }
